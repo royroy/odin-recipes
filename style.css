@@ -1,8 +1,12 @@
 h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(125, 98, 80);
-  background-color: blanchedalmond;
   margin: 100px;
+  font-size: 70pt;
+  display:flex;
+  flex:1;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
 li {
   color: rgb(67, 53, 53);
@@ -18,12 +22,16 @@ h2 {
 .links {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: auto;
+  font-size: 20pt;
+  white-space: nowrap;
 }
 .flavor {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(77, 77, 78);
   margin: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
 }
 body {
   background-color: rgb(234, 216, 188);
@@ -35,15 +43,18 @@ p {
 }
 .item-container {
   display: flex;
-  padding: 10px;
+  padding: 0px;
+  flex-wrap: nowrap;
 }
 .item {
   height: auto;
-  width: auto;
+  min-width: 200px;
+  max-width: fit-content;
   background-color: blanchedalmond;
-  flex: 1;
-  padding: 0px;
-  border: 3px solid black;
+  flex: 1; 
+  flex-direction: inherit;
+  
+  
 }
 a:hover {
   image-orientation: flip;
@@ -53,4 +64,20 @@ a:hover {
 }
 a:hover {
   background-color: rgb(161, 163, 139);
+}
+a {
+  justify-content: center;
+}
+div  {
+  justify-content: center;
+}
+img {
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+em{
+  justify-content: center;
+  display:flex;
+  flex:1;
 }
