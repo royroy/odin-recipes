@@ -17,9 +17,10 @@ h2{
 .links{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
-    color: black;
     background-color: rgba(54, 167, 20, 0.629);
-    text-decoration-color: black;
+    width: 400px;
+    margin:50px;
+    
 }
 .flavor{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -32,3 +33,21 @@ p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
 }
+.item-container  {
+display: flex;
+padding:10px;
+}
+.item {
+height: auto;
+margin: 10px;
+background-color: blanchedalmond;
+flex:1 5;
+padding: 30px;
+
+}
+a  {
+    justify-content: center;
+}
+.item:hover {
+    background-color: rgb(67, 53, 53);
+  }
