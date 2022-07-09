@@ -44,7 +44,7 @@ p {
 .item-container {
   display: flex;
   padding: 0px;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 .item {
   height: auto;
