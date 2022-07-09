@@ -1,53 +1,56 @@
-h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:rgb(125, 98, 80);
-    font-size: 40pt;
-    background-color: blanchedalmond;
-    background-size: auto;
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(125, 98, 80);
+  background-color: blanchedalmond;
+  margin: 100px;
 }
-li{
-    color: rgb(67, 53, 53);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+li {
+  color: rgb(67, 53, 53);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-h2{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:rgb(109, 71, 11);
+h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(109, 71, 11);
 }
 
-.links{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 30px;
-    background-color: rgba(54, 167, 20, 0.629);
-    width: 400px;
-    margin:50px;
-    
+.links {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: auto;
 }
-.flavor{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(77, 77, 78);
+.flavor {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(77, 77, 78);
+  margin: 20px;
 }
-body{
-    background-color: rgb(234, 216, 188);
+body {
+  background-color: rgb(234, 216, 188);
 }
-p{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: black;
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
 }
-.item-container  {
-display: flex;
-padding:10px;
+.item-container {
+  display: flex;
+  padding: 10px;
 }
 .item {
-height: auto;
-margin: 10px;
-background-color: blanchedalmond;
-flex:1 5;
-padding: 30px;
-
+  height: auto;
+  width: auto;
+  background-color: blanchedalmond;
+  flex: 1;
+  padding: 0px;
+  border: 3px solid black;
 }
-a  {
-    justify-content: center;
+a:hover {
+  image-orientation: flip;
 }
 .item:hover {
-    background-color: rgb(67, 53, 53);
-  }
+  background-color: rgb(67, 53, 53);
+}
+a:hover {
+  background-color: rgb(161, 163, 139);
+}
