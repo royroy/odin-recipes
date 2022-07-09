@@ -29,8 +29,6 @@ h2 {
 .flavor {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(153, 153, 160);
-  margin: 20px;
-  align-items: center;
   justify-content: center;
   margin-bottom: 40px;
 }
@@ -55,6 +53,7 @@ p {
   background-color: 584B4F;
   flex: 1;
   flex-direction: inherit;
+  flex-basis: 300px;
 }
 a:hover {
   image-orientation: flip;
@@ -83,9 +82,8 @@ div {
   justify-content: center;
 }
 img {
-  
   justify-content: center;
-  display:flex;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
 }
@@ -93,4 +91,10 @@ em {
   justify-content: center;
   display: flex;
   flex: 1;
+}
+
+@media (min-width: 40rem) {
+  .item {
+    flex-direction: column;
+  }
 }
